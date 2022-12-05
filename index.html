@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jogo da Velha</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>JOGO DA VELHA</h1>
+        <div class="tabuleiro">
+            <div class="linha">
+                <div class="btn" id="btn1-1" onclick="mudarBotao(this.id)">-</div>
+                <div class="btn" id="btn1-2" onclick="mudarBotao(this.id)">-</div>
+                <div class="btn" id="btn1-3" onclick="mudarBotao(this.id)">-</div>
+            </div>
+            <div class="linha">
+                <div class="btn" id="btn2-1" onclick="mudarBotao(this.id)">-</div>
+                <div class="btn" id="btn2-2" onclick="mudarBotao(this.id)">-</div>
+                <div class="btn" id="btn2-3" onclick="mudarBotao(this.id)">-</div>
+            </div>
+            <div class="linha">
+                <div class="btn" id="btn3-1" onclick="mudarBotao(this.id)">-</div>
+                <div class="btn" id="btn3-2" onclick="mudarBotao(this.id)">-</div>
+                <div class="btn" id="btn3-3" onclick="mudarBotao(this.id)">-</div>
+            </div>
+        </div>
+
+        <div class="jogador">
+            <label>
+                Jogador:
+            </label>
+            <label id="jogadorSelecionado">
+            </label>
+        </div>
+        <div id="resultado">
+        </div>
+
+        <button><a href="index.html"> REINICIAR</a></button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
