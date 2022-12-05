@@ -10,6 +10,6 @@
 <h2>Imagem do site:</h2>
 <img src="https://github.com/vitor-silva-santos/jogo-da-velha/blob/master/img/page-photo.png?raw=true" alt="imagem do site no ar">
 <hr>
-<h2>Preview: <a href="https://vitor-silva-santos.github.io/real-converter/">click here</a></h2>
+<h2>Preview: <a href="https://vitor-silva-santos.github.io/jogo-da-velha/">click here</a></h2>
 
 
